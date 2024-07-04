@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/EventAffair/static/css/main.136d76e6.css",
+    "main.js": "/EventAffair/static/js/main.d613893b.js",
+    "static/js/787.2833231b.chunk.js": "/EventAffair/static/js/787.2833231b.chunk.js",
+    "static/media/neeraj.JPG": "/EventAffair/static/media/neeraj.df9290b510b3692374f4.JPG",
+    "static/media/EA-3.PNG": "/EventAffair/static/media/EA-3.04c3aa6ca41f0c4414bb.PNG",
+    "static/media/EA-4.PNG": "/EventAffair/static/media/EA-4.41d654cb6388686602bb.PNG",
+    "static/media/EA-1.PNG": "/EventAffair/static/media/EA-1.66c31f90f2dca4ba514b.PNG",
+    "static/media/Management.jpg": "/EventAffair/static/media/Management.bdc54df323a29785f58f.jpg",
+    "static/media/EA-2.PNG": "/EventAffair/static/media/EA-2.7583bd564f0f6e9654e2.PNG",
+    "static/media/gift.jpg": "/EventAffair/static/media/gift.3c9894e9bb252c1d1cc8.jpg",
+    "static/media/Helvetica.ttf": "/EventAffair/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/pic6.jpg": "/EventAffair/static/media/pic6.9f3692a7ecddef1324fd.jpg",
+    "static/media/pic7.jpg": "/EventAffair/static/media/pic7.b4492ffb24710e1a64be.jpg",
+    "static/media/pic4.jpg": "/EventAffair/static/media/pic4.97d1a28aca5445e91c48.jpg",
+    "static/media/pic8.jpg": "/EventAffair/static/media/pic8.cae4c9d91d924918824e.jpg",
+    "static/media/pic1.jpg": "/EventAffair/static/media/pic1.06e106e861468f4958c4.jpg",
+    "static/media/pic5.jpg": "/EventAffair/static/media/pic5.fd9c990c5a295b1cbb62.jpg",
+    "static/media/pic21.jpg": "/EventAffair/static/media/pic21.a473b14acee2272c37f8.jpg",
+    "static/media/vendor.jpg": "/EventAffair/static/media/vendor.c492b685ab1e3277bcdf.jpg",
+    "static/media/pic3.jpg": "/EventAffair/static/media/pic3.97521e09bee73ef71314.jpg",
+    "static/media/abhi.png": "/EventAffair/static/media/abhi.098647698816d20cce44.png",
+    "static/media/decoration.jpg": "/EventAffair/static/media/decoration.ed8772e92c432aaf59ee.jpg",
+    "static/media/dj.jpg": "/EventAffair/static/media/dj.9654c41ea16e775c2000.jpg",
+    "static/media/food.jpg": "/EventAffair/static/media/food.199b4b42196ee10959a3.jpg",
+    "static/media/director.jpg": "/EventAffair/static/media/director.1c8e566a5656c59b2121.jpg",
+    "index.html": "/EventAffair/index.html",
+    "main.136d76e6.css.map": "/EventAffair/static/css/main.136d76e6.css.map",
+    "main.d613893b.js.map": "/EventAffair/static/js/main.d613893b.js.map",
+    "787.2833231b.chunk.js.map": "/EventAffair/static/js/787.2833231b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.136d76e6.css",
+    "static/js/main.d613893b.js"
+  ]
+}
