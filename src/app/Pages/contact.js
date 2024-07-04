@@ -1,25 +1,12 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
+import Box from '@mui/material/Box';
 import "./styles/contact.css";
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import WhatsApp from 'react-whatsapp';
-import ReactWhatsapp from 'react-whatsapp';
 
 
 export default function ContactPage() {
-
-    const [number, setNumber] = useState('7385748366');
-    const [message, setMessage] = useState('');
-
-    const onSubmit = (e) => {
-        console.log("jfjkdfjkljslkd ", number);
-        e.preventDefault();
-        alert("submit ho rha h bhai...!!!");
-
-        const whatsapp = new WhatsApp();
-        whatsapp.send(number="7385748366", message);
-    };
 
     function initialize() {
         // var latlng = new google.maps.LatLng(-34.397, 150.644);
@@ -85,7 +72,6 @@ export default function ContactPage() {
       
         <br/>
         <br/>
-        <ReactWhatsapp number="7385748366" message="Hello World!!!" />
         <br/>
         <br/>
 
@@ -109,8 +95,8 @@ export default function ContactPage() {
                                     <h3 class="title">Get The Party Started</h3>
                                     <p>As the premier event planning company in the area. Each event and client is unique and we believe our services should be as well.</p>
                                 </div>
-                                <form id="contactform" class="row contactform wrap-form clearfix" onSubmit={onSubmit} novalidate="novalidate">
-                                    {/* <label class="col-md-6">
+                                <form id="contactform" class="row contactform wrap-form clearfix" method="#" action="#" novalidate="novalidate">
+                                    <label class="col-md-6">
                                         <i class="ti ti-user"></i>
                                         <span class="ttm-form-control"><input class="text-input" name="name" type="text" value="" placeholder="Your Name:*" required="required" /></span>
                                     </label>
@@ -129,8 +115,7 @@ export default function ContactPage() {
                                     <label class="col-md-12">
                                         <i class="ti ti-comment"></i>
                                         <span class="ttm-form-control"><textarea class="text-area" name="message" placeholder="Your Message:*" required="required" ></textarea></span>
-                                    </label> */}
-                                    <input type="text" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} />
+                                    </label>
                                     <input name="submit" type="submit" value="Make a Reservation" class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-btn-color-skincolor mt-20" id="submit" title="Make a Reservation" />
                                </form> 
                                {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9x2d3xgwSSlmpddUmGieKfd1JF0s9j9BlZ4zB_jR5wiR5sA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
